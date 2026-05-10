@@ -1,6 +1,11 @@
-p{
-    color:rgb(41, 133, 81)
+body{
+    background-color: blueviolet;
+    background-image: url("https://www.modernhoney.com/wp-content/uploads/2018/10/Chicken-Tikka-Masala-1-c.jpg");
+    background-size: cover;
 }
 #middle{
     color:blue
 }
+/* p{
+    color:rgb(41, 133, 81)
+} */
