@@ -1,0 +1,9 @@
+p::first-letter {
+    color: red;
+    font-size: 200%;
+    font-style: italic;
+}
+ul>li:hover {
+    color: blue;
+    font-size: 150%;
+}
