@@ -1,0 +1,10 @@
+body {
+    background-color: darkgreen;
+    color: white;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+ul>li {
+    background-color: lightyellow;
+    border: 2px forestgreen solid;
+    color:black;
+}
