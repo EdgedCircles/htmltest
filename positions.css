@@ -1,0 +1,20 @@
+#a1 {
+    background-color: lightblue;
+}
+#a2 {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: lightgreen;
+}
+#a3 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: lightcoral;
+}
+#a4 {
+    position: sticky;
+    top: 0;
+    background-color: lightgoldenrodyellow;
+}
