@@ -6,6 +6,8 @@
 <h1 id = "a1"></h1>
 <h1 id = "a2"></h1>
 <h1 id = "a3"></h1>
+<h1 id = "a4"></h1>
+<button onclick="myFunction()">click me</button>
 </body>
 <script>
     var x = 5;
@@ -14,5 +16,9 @@
     document.getElementById("a1").innerHTML = x + y;
     document.getElementById("a2").innerHTML = x - y;
     document.getElementById("a3").innerHTML = `This is my javascript  page my name is ${z}`;
+    function myFunction() {
+        var x = new Date();
+        document.getElementById("a4").innerHTML = `you clicked me, ${x}`;
+    }
 </script>
 </html>
