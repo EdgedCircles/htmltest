@@ -1,0 +1,22 @@
+<html>
+    <head></head>
+    <title>phonebook</title>
+    <body>
+        <h1>Phonebook</h1>
+        <ul>
+            <li id = "a"></li>
+            <li id = "b"></li>
+            <li id = "c"></li>
+        </ul>
+    </body>
+    <script>
+        var phonebook = {
+            "John Doe": "555-1234",
+            "Jane Smith": "555-5678",
+            "Bob Johnson": "555-9012"
+        }
+        document.getElementById("a").innerHTML = "John Doe: " + phonebook["John Doe"];
+        document.getElementById("b").innerHTML = "Jane Smith: " + phonebook["Jane Smith"];
+        document.getElementById("c").innerHTML = "Bob Johnson: " + phonebook["Bob Johnson"];
+    </script>
+</html>
