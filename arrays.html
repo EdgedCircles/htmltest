@@ -1,0 +1,26 @@
+<html>
+    <head></head>
+    <title>arrays</title>
+    <body>
+        <h1>Arrays</h1>
+        <ul>
+            <li id = "a"></li>
+            <li id = "b"></li>
+            <li id = "c"></li>
+            <li id = "d"></li>
+        </ul>
+    </body>
+    <script>
+        var myArray = ["apple", true, 42.7867, "banana", false];
+        document.getElementById("a").innerHTML = "First element: " + myArray[0];
+        document.getElementById("b").innerHTML = "Second element: " + myArray[1];
+        document.getElementById("c").innerHTML = "Third element: " + Math.round(myArray[2]);
+        document.getElementById("d").innerHTML = "Fourth element: " + myArray[3];
+        myArray.pop();
+        console.log(myArray);
+        myArray.push("grape");
+        console.log(myArray);
+        myArray.join(", ");
+        console.log(myArray);
+    </script>
+</html>
